@@ -1,5 +1,3 @@
-
-
 import streamlit as st, datetime, langcodes, speech_recognition as sr, random, json, os
 from dotenv import load_dotenv
 from pydub import AudioSegment
