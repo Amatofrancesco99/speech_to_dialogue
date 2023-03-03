@@ -53,7 +53,7 @@ Create a JSON file named `passwords.json` (inside a folder named utils) containi
 ```
 This JSON file is used to store a single key-value pair, where the key is `Admin` while the value is the `LOG-IN-PASSWORD`. This file is used to verify if the entered login password is correct (avoid that external user can access to your application).
 
-### 3.2. CREDENTIALS
+### 3.2. Credentials
 Set up the JSON file (inside the folder named utils), named `credentials.json`, that contains the credentials to access to Speech-to-Text Google APIs. You have first to create a [Google Cloud account](https://cloud.google.com/docs/get-started?hl=en) and then following the procedure described [here](https://cloud.google.com/speech-to-text/docs/before-you-begin?hl=en).
 At the end your downloaded JSON file should be structured as follows (instead of `XXXXX` you should have proper values):
 ```json
