@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+.DS_Store
+
 # Audio folder 
-Audios/*
+audios/*
+utils/*
